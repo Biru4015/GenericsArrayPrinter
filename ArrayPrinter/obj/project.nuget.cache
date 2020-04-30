@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "hYRUaluNY01y9Avjxou4vIRiXiGIcIr3RnHah17oEqK7R9KWY4q38BOy9S+Moc6eMz8UvgNiFPADvgmhVAJ5MQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Birendra Kumar\\source\\repos\\ArrayPrinter\\ArrayPrinter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Birendra Kumar\\.nuget\\packages\\visioforge.dotnet.core.trial\\11.4.7\\visioforge.dotnet.core.trial.11.4.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'VisioForge.DotNet.Core.TRIAL 11.4.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "VisioForge.DotNet.Core.TRIAL",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

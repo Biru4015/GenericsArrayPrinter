@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VisioForge.DotNet.Core.TRIAL/11.4.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/VisioForge.Controls.UI.Dialogs.dll": {},
+          "lib/net45/VisioForge.Controls.UI.dll": {},
+          "lib/net45/VisioForge.Controls.dll": {},
+          "lib/net45/VisioForge.DirectX.dll": {},
+          "lib/net45/VisioForge.MediaFramework.dll": {},
+          "lib/net45/VisioForge.Shared.dll": {},
+          "lib/net45/VisioForge.Tools.dll": {},
+          "lib/net45/VisioForge.Types.dll": {}
+        },
+        "runtime": {
+          "lib/net45/VisioForge.Controls.UI.Dialogs.dll": {},
+          "lib/net45/VisioForge.Controls.UI.dll": {},
+          "lib/net45/VisioForge.Controls.dll": {},
+          "lib/net45/VisioForge.DirectX.dll": {},
+          "lib/net45/VisioForge.MediaFramework.dll": {},
+          "lib/net45/VisioForge.Shared.dll": {},
+          "lib/net45/VisioForge.Tools.dll": {},
+          "lib/net45/VisioForge.Types.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VisioForge.DotNet.Core.TRIAL/11.4.7": {
+      "sha512": "P3RCFBscKbyEFhSjtHZBKWeQzDAEKZ6hOBT75FWXE8z/lUS0aDyzjpA+72lgq/UsO35r9L0B2dhAeZkI5IjEsA==",
+      "type": "package",
+      "path": "visioforge.dotnet.core.trial/11.4.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/VisioForge.Controls.UI.Dialogs.dll",
+        "lib/net45/VisioForge.Controls.UI.dll",
+        "lib/net45/VisioForge.Controls.dll",
+        "lib/net45/VisioForge.DirectX.dll",
+        "lib/net45/VisioForge.MediaFramework.dll",
+        "lib/net45/VisioForge.Shared.dll",
+        "lib/net45/VisioForge.Tools.dll",
+        "lib/net45/VisioForge.Types.dll",
+        "readme.txt",
+        "tools/Install.ps1",
+        "tools/InstallRedist.psm1",
+        "tools/Uninstall.ps1",
+        "tools/VisualStudioToolsManifest.xml",
+        "visioforge.dotnet.core.trial.11.4.7.nupkg.sha512",
+        "visioforge.dotnet.core.trial.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "VisioForge.DotNet.Core.TRIAL >= 11.4.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Birendra Kumar\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Birendra Kumar\\source\\repos\\ArrayPrinter\\ArrayPrinter.csproj",
+      "projectName": "ArrayPrinter",
+      "projectPath": "C:\\Users\\Birendra Kumar\\source\\repos\\ArrayPrinter\\ArrayPrinter.csproj",
+      "packagesPath": "C:\\Users\\Birendra Kumar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Birendra Kumar\\source\\repos\\ArrayPrinter\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Birendra Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "VisioForge.DotNet.Core.TRIAL": {
+            "target": "Package",
+            "version": "[11.4.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'VisioForge.DotNet.Core.TRIAL 11.4.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "VisioForge.DotNet.Core.TRIAL",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

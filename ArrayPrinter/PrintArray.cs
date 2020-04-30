@@ -5,18 +5,24 @@ namespace ArrayPrinter
     /// <summary>
     /// This class contains the code for printing generic type array
     /// </summary>
-    public class PrintArray<E>
+    public class PrintArray<X,Y,Z>
     {
-        E[] myArray;
+        X[] myXArray;
+        Y[] myYArray;
+        Z[] myZArray;
 
-        public PrintArray(E[] myArray)
+        public PrintArray(X[] myXArray,Y[] myYArray,Z[] myZArray)
         {
-            this.myArray = myArray;
+            this.myXArray = myXArray;
+            this.myYArray = myYArray;
+            this.myZArray = myZArray;
         }
 
         public void toPrint()
         {
-            toPrint(myArray);
+            toPrint(myXArray);
+            toPrint(myYArray);
+            toPrint(myZArray);
         }
 
         /// <summary>

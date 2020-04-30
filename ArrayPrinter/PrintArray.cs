@@ -3,7 +3,7 @@
 namespace ArrayPrinter
 {
     /// <summary>
-    /// This class contains printing array
+    /// This class contains the code for printing generic type array
     /// </summary>
     class PrintArray
     {
@@ -22,40 +22,16 @@ namespace ArrayPrinter
         }
 
         /// <summary>
-        /// This method is created for printing integer type array
+        /// This method is created for printing geneeric type array
         /// </summary>
+        /// <typeparam name="E"></typeparam>
         /// <param name="a"></param>
-        private static  void toPrint(int[] a)
+        private static  void toPrint<E>(E[] a)
         {
-            foreach(int item in a)
+            foreach(E item in a)
             {
                 Console.WriteLine(item);
             }
         }
-
-        /// <summary>
-        /// This method is created for printing double type array
-        /// </summary>
-        /// <param name="b"></param>
-        private static void toPrint(double[] b)
-        {
-            foreach (double item in b)
-            {
-                Console.WriteLine(item);
-            }
-        }
-
-        /// <summary>
-        /// This method is created for printing character type array
-        /// </summary>
-        /// <param name="c"></param>
-        private static void toPrint(char[] c)
-        {
-            foreach (char item in c)
-            {
-                Console.WriteLine(item);
-            }
-        }
-
     }
 }

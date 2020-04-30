@@ -5,20 +5,18 @@ namespace ArrayPrinter
     /// <summary>
     /// This class contains the code for printing generic type array
     /// </summary>
-    class PrintArray
+    public class PrintArray<E>
     {
-        /// <summary>
-        /// This is main method
-        /// </summary>
-        /// <param name="args"></param>
-        static void Main(string[] args)
+        E[] myArray;
+
+        public PrintArray(E[] myArray)
         {
-            int[] a = { 1, 2, 3, 4, 5 };
-            double[] b = { 12.3, 20.5, 30.8, 50.3 };
-            char[] c = { 'a', 'b', 'c', 'd', 'e' };
-            toPrint(a);
-            toPrint(b);
-            toPrint(c);
+            this.myArray = myArray;
+        }
+
+        public void toPrint()
+        {
+            toPrint(myArray);
         }
 
         /// <summary>
@@ -26,7 +24,7 @@ namespace ArrayPrinter
         /// </summary>
         /// <typeparam name="E"></typeparam>
         /// <param name="a"></param>
-        private static  void toPrint<E>(E[] a)
+        public  void toPrint<E>(E[] a)
         {
             foreach(E item in a)
             {
